@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Packaging Electron Apps for Windows + Adding in Auto Update Functionality</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      a {
+        color: #a07cc0;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .inverse {
+        background: #272822;
+        color: #9b9c96;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle, inverse, inverse
+
+# [Packaging Electron Apps for Windows + Adding in Auto Update Functionality](http://electron.atom.io/)
+
+???
+Remember to breathe!
+
+P for presenter mode.
+
+C to open a cloned window.
+---
+class: center, middle, inverse
+
+# About me
+---
+layout: false
+class: center, middle, inverse
+# Carmen Long
+## Twitter: [@carmalou](https://twitter.com/carmalou)
+## Blog: [carmalou.com](http://carmalou.com)
+---
+class: center, middle, inverse
+
+# Getting Started
+---
+class: center, middle, inverse
+
+## Electron lets you build JavaScript applications in executable files for Windows, Mac, or Linux.
+## But there are some common pitfalls.
+---
+class: center, middle, inverse
+
+---
+class: center, middle, inverse
+
+![alt text](http://media.firebox.com/i/crapwrap/wrapping_2013.jpg "Badly wrapped gift")
+
+???
+Much like learning to wrap Christmas presents, learning to package Electron apps was not all that intuitive. Especially for Windows. Go figure :-D
+---
+class: left, middle, inverse
+
+## To package Electron apps, we need a few tools:
+
+### 1. [Electron-Packager](link)
+### 2. [WINE](link)
+### 3. [Electron Winstaller](link)
+### 4. [Electron.autoupdater](link)
+### 3. Patience
+
+???
+WINE is an emulator for Windows if you want to package Electron apps for Windows on a Mac. You might also want something to drink while you wait for WINE to install, but that's optional, so I left it off the list
+---
+class: center, middle, inverse
+
+![alt text](https://kare.com.hk/assets/img/main/8.jpg "Nicely wrapped gift")
+
+???
+With these tools, we'll be able to get your Electron app looking like this. :)
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
